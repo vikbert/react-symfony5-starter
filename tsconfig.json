@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "removeComments": true,
+    "declaration": false,
+    "sourceMap": true,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "baseUrl": "./assets",
+    "paths": {
+      "@styles/*": ["js/styles/*"],
+      "@containers/*": ["js/containers/*"],
+      "@components/*": ["js/components/*"]
+    }
+  },
+  "compileOnSave": true,
+  "exclude": [
+    "node_modules"
+  ]
+}
