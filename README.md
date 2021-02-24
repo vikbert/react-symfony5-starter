@@ -173,7 +173,7 @@ module.exports = {
 ### Jest & Enzyme integration
 
 ```sh
-$ yarn add jest enzyme enzyme-adapter-react-16 --dev
+$ npm install jest enzyme enzyme-adapter-react-16 --save-dev
 ```
 
 Jest configuration was defined inside `jest.config.js` and points to a test `setup.js` setup file:
@@ -348,12 +348,12 @@ app/
 ```
 
 ```sh
-$ yarn test
+$ npm run test
 ```
 ![Jest test](jest-test.png)
 
 ```sh
-$ yarn test --coverage
+$ npm run test --coverage
 ```
 ![Jest test coverage](jest-test-coverage.png)
 
