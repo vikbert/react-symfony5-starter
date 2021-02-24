@@ -12,34 +12,32 @@ Install dependencies:
 
 ```sh
 $ composer install
-$ yarn
+$ npm install
 ```
 
 Run the app:
 
 ```sh
 $ symfony server:start
-$ yarn encore dev --watch
+$ npm run dev
 ```
 
-Navigating to https://localhost:8000 you should see the app main page.
+Navigating to https://localhost:{port} you should see the app main page.
 
 
 
 This simple project starter shows how to wire up Symfony 5 with React and how to test the front part of the app with Jest & Enzyme.
 
 <div align="center">
-  
-![Project Starter](symfony-react-jest-enzyme.png)
-
+  <h1>React Symfony5 Starter</h1>
 </div>
 
 
-## Stack
+## Stack: step by step by yourself
 Backend of the starter is based on Symfony 5 and uses Webpack Encore shipped with the framework to integrate frontend libraries and styles.
 
 ```sh
-$ symfony new symfony-react-jest-enzyme
+$ symfony new react-symfony5-starter
 ```
 ### Backend dependencies
 Installation of additional dependencies was required in order to embed js part of the tool inside regular Symfony/Twig template:
@@ -52,12 +50,12 @@ $ composer require symfony/webpack-encore-bundle
 ### Installation of Frontend libraries
 
 ```sh
-$ yarn add react react-dom prop-types react-router-dom
-$ yarn add @babel/preset-react --dev
-$ yarn add @babel/preset-typescript --dev
-$ yarn add @babel/plugin-syntax-jsx --dev
-$ yarn add typescript ts-loader --dev
-$ yarn add sass-loader@^8.0.0 node-sass --dev
+$ npm install react react-dom prop-types react-router-dom
+$ npm install @babel/preset-react --save-dev
+$ npm install @babel/preset-typescript --save-dev
+$ npm install @babel/plugin-syntax-jsx --save-dev
+$ npm install typescript ts-loader --save-dev
+$ npm install sass-loader@^8.0.0 node-sass --save-dev
 ```
 
 Typescript params were placed inside `tsconfig.json`:
