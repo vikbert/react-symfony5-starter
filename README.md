@@ -19,11 +19,10 @@ Run the app:
 
 ```sh
 $ symfony server:start
-$ npm run dev
+$ npm run watch
 ```
 
 Navigating to https://localhost:{port} you should see the app main page.
-
 
 
 This simple project starter shows how to wire up Symfony 5 with React and how to test the front part of the app with Jest & Enzyme.
