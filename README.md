@@ -1,4 +1,14 @@
 # React Symfony5 Starter
+| stacks           | description                                  |
+|------------------|----------------------------------------------|
+| symfony5         | symfony 5 latest                             |
+| react.js         | react.js framework                           |
+| react.js         | react.js framework                           |
+| TypeScript       | TypeScript for react.js                      |
+| Jest             | Jest test runner                             |
+| enzyme           | the Test framework                           |
+| sass             | support sass for stylesheet                  |
+| webpack notifier | Notifier for the package building in browser |
 
 ## Usage
 
